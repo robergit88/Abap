@@ -2,7 +2,7 @@
 ****
 
 <style>
-## { background-color: red; }
+## { background-color: #FF0000; }
 </style>
 
 ## hola
