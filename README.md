@@ -9,3 +9,5 @@
 </style>
 
 ## hola
+
+$\color{red}{\textsf{lorem ipsum}}$
