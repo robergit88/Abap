@@ -13,7 +13,7 @@ Porque no se selecciona ningún campo explícitamente de _item.
 No hay un JOIN fijado entre dfkkko y dfkkop.
 
 
-``` sql
+``` CDS 
 @AbapCatalog.sqlViewName: 'ZASSOCIA01'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
@@ -37,7 +37,7 @@ Pero cuando el usuario hace clic derecho en la salida y va a la asociación,
 se mostrarán todos los detalles de dfkkop.
 
 
-Esta es una unión bajo demanda o diferida.
-
-
 ![detalle](/asociaciones/img/detail1.png)
+
+
+Esta es una unión bajo demanda o diferida.
