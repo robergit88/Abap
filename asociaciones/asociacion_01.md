@@ -2,16 +2,11 @@
 
 ### Añadir el atributo KEY como clave ya que su ausencia no realizará el filtro adecuado.
 
-En el fragmento de código hipotético siguiente, 
+> En el fragmento de código siguiente, 
 _item es la asociación expuesta.
 ¿Por qué?
 Porque no se selecciona ningún campo explícitamente de _item.
 No hay un JOIN fijado entre dfkkko y dfkkop.
-
-No hay ningún campo de _item en la lista de resultados.
-Pero cuando el usuario hace clic derecho en la salida y va a la asociación,
-se mostrarán todos los detalles de dfkkop.
-Esta es una unión bajo demanda o diferida.
 
 
 ``` sql
@@ -30,8 +25,13 @@ define view ZCDS_ASSOCIA_01
 }
 ```
 
-Se muestra selección por clave.
-Ejemplo. [select](./ABAP/asociaciones/img/select.png)
+>No hay ningún campo de _item en la lista de resultados.
 
-Se muestra detalle de asociación.
-Ejemplo. [detalle](./asociaciones/img/detail1.png)
+![select](/asociaciones/img/follow1.png)
+
+>Pero cuando el usuario hace clic derecho en la salida y va a la asociación,
+se mostrarán todos los detalles de dfkkop.
+Esta es una unión bajo demanda o diferida.
+
+
+![detalle](/asociaciones/img/detail1.png)
