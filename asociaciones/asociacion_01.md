@@ -29,3 +29,9 @@ define view ZCDS_ASSOCIA_01
        _detail
 }
 ```
+
+Se muestra selección por clave.
+Ejemplo. [select](./img/follow1.png)
+
+Se muestra detalle de asociación.
+Ejemplo. [detalle](./img/detail1.png)
