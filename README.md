@@ -1,4 +1,5 @@
 # Abap 2024
+<<<<<<< Updated upstream
 ****
 
 <font color="red">This text is red!</font>
@@ -11,3 +12,7 @@
 ## hola
 
 $\color{red}{\textsf{lorem ipsum}}$
+=======
+
+## Notas y apuntes varios
+>>>>>>> Stashed changes
