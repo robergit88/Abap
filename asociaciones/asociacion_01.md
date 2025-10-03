@@ -27,7 +27,7 @@ define view ZCDS_ASSOCIA_01
 }
 ```
 
-No hay ningún campo de \_item en la lista de resultados.
+No hay ningún campo de \_detail en la lista de resultados.
 
 ![select](/asociaciones/img/follow1.png)
 
