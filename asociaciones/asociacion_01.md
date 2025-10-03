@@ -10,7 +10,7 @@
 
 ### No hay un JOIN fijado entre dfkkko y dfkkop.
 
-```abap
+```CDS
 @AbapCatalog.sqlViewName: 'ZASSOCIA01'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
@@ -19,7 +19,8 @@
 @Metadata.ignorePropagatedAnnotations: true
 define view ZCDS_ASSOCIA_01
   as select from dfkkko as header
-  association to dfkkop as _detail on header.opbel = _detail.opbel
+  association to dfkkop as _detail
+   on header.opbel = _detail.opbel
 {
   key  header.opbel,
        _detail
