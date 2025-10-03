@@ -2,18 +2,15 @@
 
 ### Añadir el atributo KEY como clave ya que su ausencia no realizará el filtro adecuado.
 
-En el siguiente fragmento de código, 
-_item es la asociación expuesta.
+### En el siguiente fragmento de código,
 
+### \_detail es la asociación expuesta.
 
-¿Por qué?
+### ¿Por qué? Porque no se selecciona ningún campo explícitamente de \_detail.
 
+### No hay un JOIN fijado entre dfkkko y dfkkop.
 
-Porque no se selecciona ningún campo explícitamente de _item.
-No hay un JOIN fijado entre dfkkko y dfkkop.
-
-
-``` CDS 
+```abap
 @AbapCatalog.sqlViewName: 'ZASSOCIA01'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
@@ -29,15 +26,13 @@ define view ZCDS_ASSOCIA_01
 }
 ```
 
-No hay ningún campo de _item en la lista de resultados.
+No hay ningún campo de \_item en la lista de resultados.
 
 ![select](/asociaciones/img/follow1.png)
 
 Pero cuando el usuario hace clic derecho en la salida y va a la asociación,
 se mostrarán todos los detalles de dfkkop.
 
-
 ![detalle](/asociaciones/img/detail1.png)
-
 
 Esta es una unión bajo demanda o diferida.
