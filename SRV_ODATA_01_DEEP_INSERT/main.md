@@ -26,7 +26,7 @@ Se crea el proyecto como exposición de una entidad CDS. Se expone CDS ROOT
 
 Artefactos generados:
 * ZCL_ZMM_API_GRID_DPC
-* ZCL_ZMM_API_GRID_DPC_EXT
+* [ZCL_ZMM_API_GRID_DPC_EXT](/SRV_ODATA_01_DEEP_INSERT/ZCL_ZMM_API_GRID_DPC_EXT.md)
 * ZCL_ZMM_API_GRID_MPC
 * ZCL_ZMM_API_GRID_MPC_EXT
 * ZMM_API_GRID_ANNO_MDL
