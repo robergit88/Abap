@@ -1,9 +1,6 @@
 # Desarrollo de servicio OData V2 Deep insert
 
-## Modelo de datos
-
-![image](/SRV_ODATA_01_DEEP_INSERT/img/tree.png)
-
+## Modelo de datos basado en CDS
 
 #### CDS ROOT
 
@@ -36,3 +33,19 @@ Artefactos generados:
 ### Clase Auxiliar
 
 [ZCL_MATERIAL_DOCUMENT_API](/SRV_ODATA_01_DEEP_INSERT/ZCL_MATERIAL_DOCUMENT_API.md)
+
+### Prueba Postman - POST
+
+![image](/SRV_ODATA_01_DEEP_INSERT/img/POST_1.png)
+
+Fichero Json en Body de mensaje
+
+``` json
+{
+  "ReferenceDocument" : "0180045407",
+  "to_MaterialDocumentItem" : {
+      "results" : []
+  }
+}
+```
+
