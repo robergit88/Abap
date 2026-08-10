@@ -1,5 +1,26 @@
 # Clase Auxiliar
 
+
+## Clase ZCL_MATERIAL_DOCUMENT_API
+
+Propiedades
+
+![image](/SRV_ODATA_01_DEEP_INSERT/img/API_1.png)
+
+Interfaces
+
+![image](/SRV_ODATA_01_DEEP_INSERT/img/API_2.png)
+
+Métodos
+
+![image](/SRV_ODATA_01_DEEP_INSERT/img/API_3.png)
+
+CREATE_MATERIAL_DOCUMENT
+
+![image](/SRV_ODATA_01_DEEP_INSERT/img/API_4.png)
+
+
+## Código abap
 ``` abap
 class ZCL_MATERIAL_DOCUMENT_API definition
   public
