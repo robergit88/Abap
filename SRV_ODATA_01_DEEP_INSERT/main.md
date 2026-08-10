@@ -1,5 +1,13 @@
 # Desarrollo de servicio OData V2 Deep insert
 
+## Explicacion:
+Se desea desarrollar un servicio OData V2 que permita la creación de movimientos de mercancía en función de una entrega entrante.
+
+Transacción MIGO
+
+![image](/SRV_ODATA_01_DEEP_INSERT/img/MIGO_1.png)
+
+
 ## Modelo de datos basado en CDS
 
 #### CDS ROOT
