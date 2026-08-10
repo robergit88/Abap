@@ -1,6 +1,6 @@
 
 
-``` cds
+``` abap
 @VDM.lifecycle.contract.type: #PUBLIC_REMOTE_API
 @AbapCatalog.preserveKey: true
 @AbapCatalog.sqlViewName: 'ZAMATDOCHEAD'
