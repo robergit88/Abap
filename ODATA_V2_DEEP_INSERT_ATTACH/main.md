@@ -12,35 +12,29 @@ Transacción ME51N
 
 #### CDS ROOT
 
-[ZA_MaterialDocumentHeader](./otros/CDS_HEADER.md)
+[ZA_SOLPED_HEADER](./otros/ZA_SOLPED_HEADER.md)
 
 #### CDS CHILD
 
-[ZA_MaterialDocumentItem](./otros/CDS_ITEM.md)
+[ZA_SOLPED_ATTACH](./otros/ZA_SOLPED_ATTACH.md)
 
-#### CDS HOJA
-
-[ZA_SerialNumberMaterialDoc](./otros/CDS_SERIE.md)
 
 ## Proyecto SEGW - SAP Gateway service builder
-Se crea proyecto para crear documentos de entrada de mercadería. 
+Se crea proyecto para crear documentos de solicitu de pedidos (ME51N). 
 
 Se crea el proyecto como exposición de una entidad CDS. Se expone CDS ROOT
 
 ![image](./img/SEGW_1.png)
 
 Artefactos generados:
-* ZCL_ZMM_API_GRID_DPC
-* [ZCL_ZMM_API_GRID_DPC_EXT](./otros/ZCL_ZMM_API_GRID_DPC_EXT.md)
-* ZCL_ZMM_API_GRID_MPC
-* ZCL_ZMM_API_GRID_MPC_EXT
-* ZMM_API_GRID_ANNO_MDL
-* ZMM_API_GRID_MDL
-* ZMM_API_GRID_SRV
+* ZCL_MM_API_SOLPED_ATT_DPC
+* [ZCL_MM_API_SOLPED_ATT_DPC_EXT](./otros/ZCL_MM_API_SOLPED_ATT_DPC_EXT.md)
+* ZCL_MM_API_SOLPED_ATT_MPC
+* ZCL_MM_API_SOLPED_ATT_MPC_EXT
+* ZMM_API_SOLPED_ATTACH_ANNO_MDL
+* ZMM_API_SOLPED_ATTACH_MDL
+* ZMM_API_SOLPED_ATTACH_SRV
 
-### Clase Auxiliar
-
-[ZCL_MATERIAL_DOCUMENT_API](./otros/ZCL_MATERIAL_DOCUMENT_API.md)
 
 ### Prueba Postman - POST
 
