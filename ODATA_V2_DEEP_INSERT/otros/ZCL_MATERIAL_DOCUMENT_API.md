@@ -6,7 +6,7 @@
 Propiedades
 
 <!-- ![image](./img/API_1.png) -->
-![image](/img/API_1.png)
+![image](/ODATA_V2_DEEP_INSERT/img/API_1.png)
 
 Interfaces
 
