@@ -1,6 +1,6 @@
 # Clase ZCL_MM_API_SOLPED_ATT_DPC_EXT
 
-
+![image](./ODATA_V2_DEEP_INSERT_ATTACH/otros/DPC_EXT1)
 
 ``` abap
 class zcl_mm_api_solped_att_dpc_ext definition

@@ -5,7 +5,7 @@ Se desea desarrollar un servicio OData V2 que permita la creación de una solici
 
 Transacción ME51N
 
-![image](./img/MIGO_1.png)
+![image](./img/ATTACH_1.png)
 
 
 ## Modelo de datos basado en CDS
