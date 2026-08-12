@@ -1,7 +1,8 @@
 # Desarrollo de servicio OData V2 Deep insert
 
 ## Explicacion:
-Se desea desarrollar un servicio OData V2 que permita la creación de una solicitud de pedidos y luego que sobre la solicitud se añada ficheros que llegan adjuntos al mensaje.
+
+Se desea desarrollar un servicio OData V2 que permita el adjuntado de ficheros sobre una solicitud de pedidos. La solicitud debe existir previamente.
 
 Transacción ME51N
 
@@ -20,7 +21,8 @@ Transacción ME51N
 
 
 ## Proyecto SEGW - SAP Gateway service builder
-Se crea proyecto para crear documentos de solicitu de pedidos (ME51N). 
+
+Se crea proyecto para modificar una solicitud de pedidos (ME52N). 
 
 Se crea el proyecto como exposición de una entidad CDS. Se expone CDS ROOT
 
@@ -57,3 +59,8 @@ Fichero Json en Body de mensaje
 }
 ```
 
+### Resultado
+
+El listado de anexos de la solicitud debe mostrar los ficheros añadidos a la solped.
+
+![image](./img/RESULTADO_1.png)
