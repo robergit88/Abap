@@ -2,27 +2,27 @@
 
 Propiedades
 
-![Propiedades](./img/DPC_EXT_1.png)
+![Propiedades](/ODATA_V2_DEEP_INSERT/img/DPC_EXT_1.png)
 
 Métodos
 
-![Propiedades](./img/DPC_EXT_2.png)
+![Propiedades](/ODATA_V2_DEEP_INSERT/img/DPC_EXT_2.png)
 
 CREATE_DEEP_ENTITY
 
-![Métodos](./img/DPC_EXT_3.png)
+![Métodos](/ODATA_V2_DEEP_INSERT/img/DPC_EXT_3.png)
 
 _MAPPING
 
-![Métodos](./img/DPC_EXT_4.png)
+![Métodos](/ODATA_V2_DEEP_INSERT/img/DPC_EXT_4.png)
 
 CREATE_DOCUMENT
 
-![Métodos](./img/DPC_EXT_5.png)
+![Métodos](/ODATA_V2_DEEP_INSERT/img/DPC_EXT_5.png)
 
 HANDLE_ERRORS
 
-![Métodos](./img/DPC_EXT_6.png)
+![Métodos](/ODATA_V2_DEEP_INSERT/img/DPC_EXT_6.png)
 
 Código
 

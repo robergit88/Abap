@@ -5,20 +5,19 @@
 
 Propiedades
 
-<!-- ![image](./img/API_1.png) -->
 ![image](/ODATA_V2_DEEP_INSERT/img/API_1.png)
 
 Interfaces
 
-![image](/img/API_2.png)
+![image](/ODATA_V2_DEEP_INSERT/img/API_2.png)
 
 Métodos
 
-![image](/img/API_3.png)
+![image](/ODATA_V2_DEEP_INSERT/img/API_3.png)
 
 CREATE_MATERIAL_DOCUMENT
 
-![image](/img/API_4.png)
+![image](/ODATA_V2_DEEP_INSERT/img/API_4.png)
 
 
 ## Código abap
