@@ -40,7 +40,7 @@ Artefactos generados:
 
 ### Clase Auxiliar
 
-[ZCL_MATERIAL_DOCUMENT_API](./otros/ZCL_MATERIAL_DOCUMENT_API.md)
+[ZCL_MATERIAL_DOCUMENT_API](/otros/ZCL_MATERIAL_DOCUMENT_API.md)
 
 ### Prueba Postman - POST
 
