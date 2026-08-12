@@ -3,7 +3,19 @@
 Propiedades 
 
 ![image](/ODATA_V2_DEEP_INSERT_ATTACH/img/DPC_EXT_1.png)
-<!-- ![image](/ODATA_V2_DEEP_INSERT_ATTACH/img) -->
+
+Métodos
+
+![image](/ODATA_V2_DEEP_INSERT_ATTACH/img/DPC_EXT_2.png)
+
+CREATE_DEEP_ENTITY
+
+![image](/ODATA_V2_DEEP_INSERT_ATTACH/img/CREATE_DEEP_ENTITY.png)
+
+HANDLE_ERRORS
+
+![image](/ODATA_V2_DEEP_INSERT_ATTACH/img/HANDLE_ERRORS.png)
+
 
 ``` abap
 class zcl_mm_api_solped_att_dpc_ext definition
