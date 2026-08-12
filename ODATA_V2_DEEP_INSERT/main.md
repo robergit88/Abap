@@ -5,7 +5,7 @@ Se desea desarrollar un servicio OData V2 que permita la creación de movimiento
 
 Transacción MIGO
 
-![image](/img/MIGO_1.png)
+![image](./img/MIGO_1.png)
 
 
 ## Modelo de datos basado en CDS
