@@ -5,7 +5,8 @@
 
 Propiedades
 
-![image](./img/API_1.png)
+<!-- ![image](./img/API_1.png) -->
+![image](/img/API_1.png)
 
 Interfaces
 
