@@ -57,3 +57,8 @@ Fichero Json en Body de mensaje
 }
 ```
 
+### Resultado
+
+Se crea documento de entrada de mercancía, transacción MIGO, con referencia a entrega entrante.
+
+![image](./img/RESULTADO_1.png)
