@@ -3,7 +3,7 @@
 ## Explicacion:
 Se desea desarrollar un servicio OData V2 que permita la creación de movimientos de mercancía en función de una entrega entrante.
 
-Transacción MIGO 
+Transacción MIGO
 
 ![image](./img/MIGO_1.png)
 
