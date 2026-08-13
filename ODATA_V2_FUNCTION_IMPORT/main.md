@@ -13,7 +13,30 @@ Transacción IQ09 o IW32
 
 Se crea proyecto para modificar estado de un equipo (IQ09). 
 
-![image](./img/SEGW_1.png)
+### Complex Type Definition
+
+Se define un tipo complejo con nombre y asociado a un tipo de datos de diccionacio, en este caso BAPIRET2
+
+![image](./img/COMPLEX_TYPE.png)
+
+###  Properties of Complex Type 
+
+Se define que campos de BAPIRET2 se quiere devolver en la llamada. En este caso se devuelven todos los campos.
+
+![image](./img/PROPERTIES.png)
+
+### Function Imports Definition
+
+Se define la operacion **ChangeStatus** además se informa que devuelve como respuesta un tipo complejo llamado **return** y se asocia la ejecución del proceso al método POST del protocolo HTTP.
+
+![image](./img/FUNCTION_IMP_1.png)
+
+### Function Imports Parameters
+
+Sobre esta operación se definen los parámetros de entrada
+
+![image](./img/FUNCTION_IMP_2.png)
+
 
 Artefactos generados:
 
