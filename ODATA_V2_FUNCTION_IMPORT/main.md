@@ -28,7 +28,9 @@ Artefactos generados:
 
 ### Prueba Postman - POST
 
+
 > /sap/opu/odata/SAP/ZPM_EQUI_STATUS_ACTION_SRV/ChangeStatus?Sernr='0723425623'&UserStatus='BLOQ'
+
 
 ![image](./img/POST_1.png)
 
