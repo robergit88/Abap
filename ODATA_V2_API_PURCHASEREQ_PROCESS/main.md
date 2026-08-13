@@ -77,6 +77,6 @@ Fichero Json en Body de mensaje
 
 ### Resultado
 
-El listado de anexos de la solicitud debe mostrar los ficheros añadidos a la solped.
+Con la transacción ME53N se revisan los datos de la solped creada
 
 ![image](./img/RESULTADO_1.png)
