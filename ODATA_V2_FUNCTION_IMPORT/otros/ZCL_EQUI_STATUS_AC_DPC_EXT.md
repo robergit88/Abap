@@ -14,10 +14,11 @@ EXECUTE_ACTION
 
 HANDLE_ERRORS
 
-![image](/ODATA_V2_FUNCTION_IMPORT/img/HANDLE_ERRORS.png) -->
+![image](/ODATA_V2_FUNCTION_IMPORT/img/HANDLE_ERRORS.png)
 
 
 ``` abap
+
 class zcl_equi_status_ac_dpc_ext definition
   public
   inheriting from zcl_equi_status_ac_dpc
