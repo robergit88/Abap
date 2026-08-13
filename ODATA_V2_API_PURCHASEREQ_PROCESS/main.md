@@ -7,37 +7,37 @@ Se desea desarrollar un servicio OData V2 que permita la creación de solicitud 
 
 Transacción ME51N 
 
-![image](./img/ATTACH_1.png)
+![image](./img/RESUMEN_1.png)
 
 
-## Modelo de datos basado en CDS
+## Modelo de datos basado en CDS estándar
 
 #### CDS ROOT
 
-[ZA_SOLPED_HEADER](./otros/ZA_SOLPED_HEADER.md)
+[A_PurchaseRequisitionHeader](./otros/A_PurchaseRequisitionHeader.md)
 
 #### CDS CHILD
 
-[ZA_SOLPED_ATTACH](./otros/ZA_SOLPED_ATTACH.md)
+[A_PurchaseRequisitionItem](./otros/A_PurchaseRequisitionItem.md)
 
 
 ## Proyecto SEGW - SAP Gateway service builder
 
-Se crea proyecto para modificar una solicitud de pedidos (ME52N). 
+Se crea proyecto para modificar una solicitud de pedidos (ME51N). 
 
 Se crea el proyecto como exposición de una entidad CDS. Se expone CDS ROOT
 
 ![image](./img/SEGW_1.png)
 
 Artefactos generados:
-* ZCL_MM_API_SOLPED_ATT_DPC
-* [ZCL_MM_API_SOLPED_ATT_DPC_EXT](./otros/ZCL_MM_API_SOLPED_ATT_DPC_EXT.md)
-* ZCL_MM_API_SOLPED_ATT_MPC
-* ZCL_MM_API_SOLPED_ATT_MPC_EXT
-* ZMM_API_SOLPED_ATTACH_ANNO_MDL
-* ZMM_API_SOLPED_ATTACH_MDL
-* ZMM_API_SOLPED_ATTACH_SRV
 
+* ZAPI_PURCHASEREQ_PROCES_ANNO_MDL
+* ZAPI_PURCHASEREQ_PROCESS_MDL
+* ZAPI_PURCHASEREQ_PROCESS_SRV
+* ZCL_API_PURCHASEREQ_P_DPC
+* [ZCL_API_PURCHASEREQ_P_DPC_EXT](./otros/ZCL_MM_API_SOLPED_ATT_DPC_EXT.md)
+* ZCL_API_PURCHASEREQ_P_MPC
+* ZCL_API_PURCHASEREQ_P_MPC_EXT
 
 ### Prueba Postman - POST
 
