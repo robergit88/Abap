@@ -2,7 +2,7 @@
 
 Propiedades
 
-![image](/img/DPC_EXT_1.png)
+![image](./img/DPC_EXT_1.png)
 
 Métodos
 
