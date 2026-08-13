@@ -41,6 +41,8 @@ Artefactos generados:
 
 ### Prueba Postman - POST
 
+> http://++++++++++++:8000/sap/opu/odata/sap/ZAPI_PURCHASEREQ_PROCESS_SRV/A_PurchaseRequisitionHeader
+
 ![image](./img/POST_1.png)
 
 Fichero Json en Body de mensaje
