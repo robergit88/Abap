@@ -2,7 +2,7 @@
 
 Propiedades
 
-![image](/ODATA_V2_FUNCTION_IMPORT/img/DPC_EXT_1.png)
+<!-- ![image](/ODATA_V2_FUNCTION_IMPORT/img/DPC_EXT_1.png)
 
 Métodos
 
@@ -14,7 +14,7 @@ EXECUTE_ACTION
 
 HANDLE_ERRORS
 
-![image](/img/HANDLE_ERRORS.png)
+![image](/img/HANDLE_ERRORS.png) -->
 
 
 ``` abap
