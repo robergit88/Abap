@@ -2,15 +2,15 @@
 
 Propiedades
 
-![image](/img/HELPER_1.png)
+![image](/ODATA_V2_FUNCTION_IMPORT/img/HELPER_1.png)
 
 Métodos
 
-![image](/img/HELPER_2.png)
+![image](/ODATA_V2_FUNCTION_IMPORT/img/HELPER_2.png)
 
 S_CHANGE_USER_STATUS_BY_SERNR
 
-![image](/img/S_CHANGE_USER_STATUS_BY_SERNR.png)
+![image](/ODATA_V2_FUNCTION_IMPORT/img/S_CHANGE_USER_STATUS_BY_SERNR.png)
 
 
 ``` abap

@@ -6,15 +6,15 @@ Propiedades
 
 Métodos
 
-![image](/img/DPC_EXT_2.png)
+![image](/ODATA_V2_FUNCTION_IMPORT/img/DPC_EXT_2.png)
 
 EXECUTE_ACTION
 
-![image](/img/EXECUTE_ACTION.png)
+![image](/ODATA_V2_FUNCTION_IMPORT/img/EXECUTE_ACTION.png)
 
 HANDLE_ERRORS
 
-![image](/img/HANDLE_ERRORS.png) -->
+![image](/ODATA_V2_FUNCTION_IMPORT/img/HANDLE_ERRORS.png) -->
 
 
 ``` abap
