@@ -2,7 +2,7 @@
 
 Propiedades 
 
-![image](ODATA_V2_API_PURCHASEREQ_PROCESS/img/DPC_EXT_1.png)
+![image](/ODATA_V2_API_PURCHASEREQ_PROCESS/img/DPC_EXT_1.png)
 
 ``` abap
 
