@@ -4,7 +4,7 @@
 
 Se desea desarrollar un servicio OData V2 que permita modificar el estado de usuario un equipo contador (objeto de PM)
 
-Transacción IQ09 o IW32
+Transacción IQ09 o IW32 
 
 ## Modelo de datos basado en definicion de function import
 
