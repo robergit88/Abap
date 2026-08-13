@@ -2,7 +2,20 @@
 
 Propiedades
 
-![image](ODATA_V2_FUNCTION_IMPORT/img/DPC_EXT_1.png)
+![image](/img/DPC_EXT_1.png)
+
+Métodos
+
+![image](/img/DPC_EXT_2.png)
+
+EXECUTE_ACTION
+
+![image](/img/EXECUTE_ACTION.png)
+
+HANDLE_ERRORS
+
+![image](/img/HANDLE_ERRORS.png)
+
 
 ``` abap
 class zcl_equi_status_ac_dpc_ext definition

@@ -1,3 +1,16 @@
+# Clase auxiliar ZCL_CG_HELPER_EQUI
+
+Propiedades
+
+![image](/img/HELPER_1.png)
+
+Métodos
+
+![image](/img/HELPER_2.png)
+
+S_CHANGE_USER_STATUS_BY_SERNR
+
+![image](/img/S_CHANGE_USER_STATUS_BY_SERNR.png)
 
 
 ``` abap
