@@ -1,10 +1,10 @@
-# Desarrollo de servicio OData V2 Deep insert
+# Desarrollo de servicio OData V2 Function Import
 
 ## Explicacion:
 
-Se desea desarrollar un servicio OData V2 que permita el adjuntado de ficheros sobre una solicitud de pedidos. La solicitud debe existir previamente.
+Se desea desarrollar un servicio OData V2 que permita modificar el estado de usuario un equipo contador (objeto de PM)
 
-Transacción ME51N
+Transacción IQ09 o IW32
 
 ![image](./img/ATTACH_1.png)
 
