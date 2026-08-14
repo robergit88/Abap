@@ -6,13 +6,19 @@ Propiedades
 
 Métodos
 
+![Métodos](/ODATA_V2_UPDATE_MASIVO/img/DPC_EXT_2.png)
+
 CREATE_DEEP_ENTITY
+
+![CREATE_DEEP_ENTITY](/ODATA_V2_UPDATE_MASIVO/img/CREATE_DEEP_ENTITY.png)
 
 HANDLE_ERRORS
 
+![HANDLE_ERRORS](/ODATA_V2_UPDATE_MASIVO/img/HANDLE_ERRORS.png)
 
 
 ``` abap
+
 class ZCL_PM_EQUI_STATUS_MA_DPC_EXT definition
   public
   inheriting from ZCL_PM_EQUI_STATUS_MA_DPC
