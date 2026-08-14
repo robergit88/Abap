@@ -15,9 +15,17 @@ Transacción IQ09 o IW32
 
 [ZA_SOLICITUD_K](./otros/ZA_SOLICITUD_K.md)
 
+Tabla BB.DD cabecera
+
+![image](./img/ZPM_SOLICITUD_K.png)
+
 #### CDS CHILD
 
 [ZA_SOLICITUD_P](./otros/ZA_SOLICITUD_P.md)
+
+Tabla BB.DD posicion
+
+![image](./img/ZPM_SOLICITUD_P.png)
 
 
 ## Proyecto SEGW - SAP Gateway service builder
