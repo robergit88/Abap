@@ -4,6 +4,8 @@
 
 Se desea desarrollar un servicio OData V2 que permita modificar el estado de usuario muchos equipos de contador (objeto de PM) en una única llamada
 
+![image](./img/CONTEXTO_1.png)
+
 Transacción IQ09 o IW32 
 
 ## Modelo de datos basado en CDS
