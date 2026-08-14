@@ -2,18 +2,19 @@
 
 Propiedades
 
-![image](/ODATA_V2_FUNCTION_IMPORT/img/HELPER_1.png)
+![image](/ODATA_V2_UPDATE_MASIVO/img/HELPER_1.png)
 
 Métodos
 
-![image](/ODATA_V2_FUNCTION_IMPORT/img/HELPER_2.png)
+![image](/ODATA_V2_UPDATE_MASIVO/img/HELPER_2.png)
 
 S_CHANGE_USER_STATUS_BY_SERNR
 
-![image](/ODATA_V2_FUNCTION_IMPORT/img/S_CHANGE_USER_STATUS_BY_SERNR.png)
+![image](/ODATA_V2_UPDATE_MASIVO/img/S_CHANGE_MASIVE_USER_STATUS.png)
 
 
 ``` abap
+
 class ZCL_CG_HELPER_EQUI definition
   public
   final
