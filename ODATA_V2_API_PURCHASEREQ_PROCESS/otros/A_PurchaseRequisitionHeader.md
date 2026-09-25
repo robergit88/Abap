@@ -33,14 +33,13 @@
  updateEnabled: true,
  deleteEnabled: false
 }
-define view A_PurchaseRequisitionHeader
-  as select distinct from I_Purchaserequisitionitem as _PurchaseRequisition
-
-  association [1..*] to A_PurchaseRequisitionItem as _PurchaseReqnItem 
+define view A_PurchaseRequisitionHeader as 
+select distinct from I_Purchaserequisitionitem as _PurchaseRequisition
+ association [1..*] to A_PurchaseRequisitionItem as _PurchaseReqnItem 
   on $projection.PurchaseRequisition = _PurchaseReqnItem.PurchaseRequisition
+
 {
 
-      
   key _PurchaseRequisition.PurchaseRequisition,
        @ObjectModel.sapObjectNodeTypeReference: 'PurchaseRequisitionType'
       _PurchaseRequisition.PurchaseRequisitionType,
