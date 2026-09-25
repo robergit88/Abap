@@ -36,7 +36,8 @@
 define view A_PurchaseRequisitionHeader
   as select distinct from I_Purchaserequisitionitem as _PurchaseRequisition
 
-  association [1..*] to A_PurchaseRequisitionItem as _PurchaseReqnItem on $projection.PurchaseRequisition = _PurchaseReqnItem.PurchaseRequisition
+  association [1..*] to A_PurchaseRequisitionItem as _PurchaseReqnItem 
+  on $projection.PurchaseRequisition = _PurchaseReqnItem.PurchaseRequisition
 {
 
       
