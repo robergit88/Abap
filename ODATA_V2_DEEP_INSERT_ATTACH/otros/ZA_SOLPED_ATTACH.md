@@ -12,14 +12,15 @@
 @ObjectModel.usageType.serviceQuality: #C
 @ObjectModel.usageType.sizeCategory: #XXL
 @ObjectModel.usageType.dataClass: #TRANSACTIONAL
-
 @Metadata.ignorePropagatedAnnotations: true
-define view ZA_SOLPED_ATTACH
-  as select from ztsolped_attach as a
 
-  association [1..1] to ZA_SOLPED_HEADER as _HEADER on  $projection.SolicitudId = _HEADER.SolicitudId
-                                                    and $projection.Sapadokid   = _HEADER.Sapadokid
-                                                    and $projection.Saparcid    = _HEADER.Saparcid
+define view ZA_SOLPED_ATTACH as 
+ select from ztsolped_attach as a
+  association [1..1] to ZA_SOLPED_HEADER as _HEADER on  
+   $projection.SolicitudId = _HEADER.SolicitudId and 
+   $projection.Sapadokid   = _HEADER.Sapadokid and 
+   $projection.Saparcid    = _HEADER.Saparcid
+   
 {
 
   key a.solicitud_id   as SolicitudId,
