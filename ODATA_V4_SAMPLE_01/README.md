@@ -39,3 +39,46 @@ Clase para cargar datos ficticios
 
 [Cargar tabla Z](./otros/zcl_carga_cliente.md)
 
+Se ejecuta Clase con F9 y se cargan datos.
+
+![image](./img/TABLA_DATOS.png)
+
+
+## Fase 1: GET de la colección y GET por clave
+
+Aquí no hay código de negocio. Declaras el modelo y el framework hace el resto.
+
+### Qué crear (en este orden)
+
+#### 1. CDS view entity `ZI_CLIENTE`
+
+``` abap
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'CDS Cliente'
+@Metadata.ignorePropagatedAnnotations: true
+
+define root view entity ZI_CLIENTE
+  as select from zcliente_01
+
+{
+  key cliente_id   as ClienteId,
+      nombre       as Nombre,
+      ciudad       as Ciudad,
+      email        as Email,
+      estado       as Estado,
+      ultima_modif as UltimaModif
+
+}
+```
+* Es root porque en la Fase 2 le añadiremos el behavior.
+
+#### 2. Service definition ZSD_CLIENTE
+
+``` abap
+@EndUserText.label: 'Servicio de clientes'
+define service ZSD_CLIENTE {
+  expose ZI_CLIENTE as Cliente;
+}
+```
+
+El alias Cliente será el nombre del entity set en la URL.
