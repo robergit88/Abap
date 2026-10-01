@@ -52,6 +52,10 @@ Aquí no hay código de negocio. Declaras el modelo y el framework hace el resto
 
 #### 1. CDS view entity `ZI_CLIENTE`
 
+Seleccionar este template **defineRootViewEntity**
+
+![image](./img/TEMPLATE_CDS_FOR_API.png)
+
 ``` abap
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'CDS Cliente'
@@ -75,10 +79,41 @@ define root view entity ZI_CLIENTE
 #### 2. Service definition ZSD_CLIENTE
 
 ``` abap
-@EndUserText.label: 'Servicio de clientes'
+@EndUserText.label: 'Service Definition on CDS'
 define service ZSD_CLIENTE {
   expose ZI_CLIENTE as Cliente;
 }
 ```
 
 El alias Cliente será el nombre del entity set en la URL.
+
+#### 3. Service binding ZUI_CLIENTE_O4
+
+* Binding Type: OData V4 - Web API.
+* Service Definition: ZSD_CLIENTE.
+* Activar y publicar (Publish).
+
+![image](./img/SERVICE_BINDING.png)
+
+Con esto ya se puede probar presionando **Test**
+
+![image](./img/TEST_SWAGGER.png)
+
+Equivalencias de consulta en BTP
+
+con SEGW
+
+/sap/opu/odata/sap/API_PURCHASECONTRACT_PROCESS_SRV/A_PurchaseContract?$top=2
+
+Con BTP
+
+http://localhost:49370/testclient/sap/opu/odata4/sap/zui_cliente_o4/srvd_a2x/sap/zsd_cliente/0001/Cliente?$top=3
+
+
+con SEGW
+
+/sap/opu/odata/sap/ZAPI_PURCHASEREQ_PROCESS_SRV/$metadata
+
+Con BTP
+
+http://localhost:49370/testclient/sap/opu/odata4/sap/zui_cliente_o4/srvd_a2x/sap/zsd_cliente/0001/$metadata
