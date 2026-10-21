@@ -6,7 +6,7 @@ Se desea desarrollar un servicio OData V2 que permita modificar el estado de usu
 
 ![image](./img/CONTEXTO_1.png)
 
-Transacción IQ09 o IW32 
+**Transacción IW32**
 
 ## Modelo de datos basado en CDS
 
