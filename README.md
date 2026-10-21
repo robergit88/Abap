@@ -10,4 +10,4 @@
 
 * [API Modificación masiva equipo PM IW32](/ODATA_V2_UPDATE_MASIVO/README.md)
 
-* [OData V4 Service](/ODATA_V4_SAMPLE_01/README.md)
+* [OData V4 Service (ABAP Environment)](/ODATA_V4_SAMPLE_01/README.md)
